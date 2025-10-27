@@ -1,3 +1,4 @@
+// Leetcode : 263
 public class UglyNumber {
     public boolean isUgly(int n) {
         if(n<=0) return false;
@@ -11,3 +12,4 @@ public class UglyNumber {
 
 // Revised Today (27 SEP 2025)
 // Revised Today (18 OCT 2025)
+// Revised Today (27 OCT 2025)
