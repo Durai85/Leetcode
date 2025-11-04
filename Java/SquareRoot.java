@@ -6,7 +6,7 @@ public class SquareRoot {
         int left = 2;
         int right = x;
         while(left<=right){
-            int mid = left + (right - left) /2;
+            int mid = left + (right - left) /2;  // This is used to prevent overflow (Integer.MAX_VALUE)
             // int mid = (right + left) /2;
             long square = (long) mid*mid;
             if(square == x) return mid;
