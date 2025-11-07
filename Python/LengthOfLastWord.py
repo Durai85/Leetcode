@@ -8,3 +8,5 @@ def lengthOfLastWord(word):             # This is another basic problem.
         else: count+=1
     return count
 print(lengthOfLastWord(word))
+
+# Revised Today (7 NOV 2025)
