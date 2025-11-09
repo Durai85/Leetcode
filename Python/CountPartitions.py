@@ -6,3 +6,4 @@ def countPartitions(self, nums):
             right = nums[i:]
             if (sum(left) + sum(right)) % 2 == 0 : count += 1
         return count
+        
