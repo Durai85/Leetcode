@@ -1,5 +1,5 @@
 # Leetcode : 3432
-def countPartitions(self, nums: List[int]) -> int:
+def countPartitions(self, nums):
         count = 0
         for i in range(1,len(nums)):
             left = nums[:i]
