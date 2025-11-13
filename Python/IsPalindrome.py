@@ -23,3 +23,4 @@ def isPalindrome2(s):    # Leetcode : 125
 print(isPalindrome2("0P"))
 
 # Revised Today ( 25 AUG 2025 )
+# Revised Today (13 NOV 2025)
