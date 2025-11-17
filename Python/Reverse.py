@@ -10,3 +10,5 @@ def reverse(x):                             # Leetcode : 7
         rev = rev * 10 + t                  # rev * 10 + digit <= 2**31 - 1
     return sign*rev                         # finally return the reversed number
 print(reverse(-123))
+
+# Revised Today (17 NOV 2025)
