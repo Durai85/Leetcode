@@ -1,8 +1,9 @@
 # Leetcode : 3432
-def countPartitions(self, nums: List[int]) -> int:
+def countPartitions(self, nums):
         count = 0
         for i in range(1,len(nums)):
-            left = sum(nums[:i])
-            right = sum(nums[i:])
-            if (left + right) % 2 == 0 : count += 1
+            left = nums[:i]
+            right = nums[i:]
+            if (sum(left) + sum(right)) % 2 == 0 : count += 1
         return count
+        

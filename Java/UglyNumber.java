@@ -13,3 +13,5 @@ public class UglyNumber {
 // Revised Today (27 SEP 2025)
 // Revised Today (18 OCT 2025)
 // Revised Today (27 OCT 2025)
+// Revised Today (12 OCT 2025)
+// Revised Today (18 NOV 2025)
