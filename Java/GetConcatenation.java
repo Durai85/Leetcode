@@ -15,4 +15,4 @@ public class GetConcatenation {
             System.out.println(a);
         }
     }
-}
+} 
