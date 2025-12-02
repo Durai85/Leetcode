@@ -1,3 +1,4 @@
+// Leetcode : 3370
 public class SmallestNumber{
     public static int smallestNumber(int n){
         int x = n;
@@ -9,3 +10,4 @@ public class SmallestNumber{
         System.out.println(smallestNumber(5));
     }
 }
+// Revised Today (02 DEC 2025)
