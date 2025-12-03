@@ -8,3 +8,5 @@ def findDifference(nums1,nums2):                # Leetcode : 2215
     return answer                               # return the answer lol
 
 print(findDifference([1,2,3,3],[1,1,2,2]))
+
+# Revised Today (03 DEC 2025)
