@@ -1,5 +1,5 @@
 // Leetcode : 994
-class Solution {
+class MinDeletionSize {
     public int minDeletionSize(String[] strs) {
         int fault = 0;
         int len = strs[0].length();
