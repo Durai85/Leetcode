@@ -1,0 +1,51 @@
+// Leetcode : 1161
+
+import java.util.ArrayDeque;
+import java.util.Queue;
+
+
+// Definition for a binary tree node
+
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode() {}
+    TreeNode(int val) { this.val = val; }
+    TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
+}
+
+
+public class MaxLevelSum {
+    public int maxLevelSum(TreeNode root) {
+        Queue<TreeNode>queue = new ArrayDeque<>();
+        queue.add(root);
+        int level = 1;
+        int maxLevel = 1;
+        int maxSum = root.val;
+
+        while(!queue.isEmpty()){
+            int size = queue.size();
+            int sum = 0;
+
+            for(int i=0; i<size; i++){
+                TreeNode node = queue.poll();
+                sum += node.val;
+                if(node.left != null) queue.add(node.left);
+                if(node.right != null) queue.add(node.right);
+            }
+
+            if(sum > maxSum){
+                maxSum = sum;
+                maxLevel = level;
+            }
+
+            level++;
+        }
+        return maxLevel;
+    }
+}
