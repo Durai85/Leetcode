@@ -24,3 +24,5 @@ public class LongestConsecutive {
         return max;
     }
 }
+
+// Leetcode : 128
