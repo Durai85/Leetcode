@@ -1,3 +1,4 @@
+// Leetcode : 242
 public class IsAnagram {
     public static boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) return false; 
@@ -24,3 +25,5 @@ public class IsAnagram {
         // isAnagram("live", "evil");
     }
 }
+
+// Revised Today (18 JAN 2026)
