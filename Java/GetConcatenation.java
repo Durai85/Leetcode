@@ -16,3 +16,5 @@ public class GetConcatenation {
         }
     }
 }
+
+// Revised Leetcode : 1929
